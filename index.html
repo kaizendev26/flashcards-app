@@ -8,6 +8,23 @@
   <script src="https://kit.fontawesome.com/2b4e3e1ba5.js" crossorigin="anonymous"></script>
   <title>Flashcard App</title>
 
+  <style>
+    .custom-class {
+      /* Estilo base: se aplica a todas las pantallas */
+      width: 100%;
+      /* width inicial */
+    }
+
+    @media (min-width: 640px) {
+
+      /* Estilo para pantallas pequeñas y mayores */
+      .custom-class {
+        width: 70%;
+        /* Sobrescribe width para pantallas >= 640px */
+      }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -15,7 +32,7 @@
   <header id="header">
 
   </header>
-  <div id="app" class="sm:w-[70%] w-full  m-auto ">
+  <div id="app" class="custom-class" style="margin: auto;">
 
 
   </div>
