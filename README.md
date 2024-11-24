@@ -4,16 +4,16 @@ Flashcards App es una aplicación inspirada en Anki, diseñada para el estudio d
 
 ## 💡 Sobre este proyecto
 
-**Flashcards App** es el resultado de un reto personal: desarrollar una aplicación . Quería replicar la funcionalidad de herramientas populares de **repetición espaciada**, explorando conceptos como:
+**Flashcards App** es el resultado de un reto personal: Queria desarrollar una aplicacion que me permitiera replicar la funcionalidad de herramientas populares de **repetición espaciada**, explorando conceptos como:
 
 - Algoritmos de repetición espaciada (SM2 y personalizaciones).
-- Single Page Aplications con Javascript vanilla
-- Gestión de usuarios
-- Majeno rutas hash, interconexion entre componentes
-- Manejo del DOM para componentes dinamicos al ser una SPA
+- Single Page Aplications con Javascript vanilla.
+- Gestión de usuarios.
+- Majeno rutas hash, interconexion entre componentes.
+- Manejo del DOM para componentes dinamicos al ser una SPA.
 - Optimización de frontend y diseño responsivo.
 
-El objetivo principal fue aprender más sobre el desarrollo de aplicaciones completas (frontend y backend) con Javascript vanilla y vite.js, mientras creaba algo con una utilidad real.
+El objetivo principal fue aprender más sobre el desarrollo de aplicaciones completas (frontend y backend) con Javascript vanilla y vite.js, mientras creaba algo con una utilidad real que uso en mi día a día.
 
 ## 🧩 Características principales
 
