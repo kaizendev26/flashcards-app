@@ -73,6 +73,8 @@ Se que este proyecto personal no esta completamente terminado. Algunas ideas par
 - Agregar estadísticas mas avanzadas para el seguimiento del aprendizaje.
 
 **Futuras**
+- Integrar Quiz basados en tus tarjeta de estudio para reforzar
+  el aprendizaje( util para cuando estas estuiando un idioma y quieres practicar las palabras en oraciones)
 - Integración con una aplicación móvil (Android e iOS).
 - Opciones de personalización más detalladas para cada usuario.
 - Implementar notificaciones para recordar las sesiones de estudio.
