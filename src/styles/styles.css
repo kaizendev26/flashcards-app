@@ -1,0 +1,106 @@
+@import "transition-style";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asegura que el body y html ocupen todo el alto */
+}
+
+.wipe-in-left {
+  animation: wipe-in-left;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+
+.wipe-out-right {
+  animation: wipe-out-right;
+  animation-duration: 0.1s;
+  animation-fill-mode: both;
+}
+
+.wipe-in-right {
+  animation: wipe-in-right;
+  animation-duration: 0.1s;
+  animation-fill-mode: both;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: transparent !important;
+  color: rgb(203 213 225) !important;
+}
+
+.menu i:hover,
+.menu i:focus,
+.menu i:active {
+  background-color: transparent !important;
+  color: rgb(203 213 225) !important;
+}
+
+.tab-active {
+  background-color: #888888 !important;
+  color: #ffff !important;
+}
+
+.tab-active:active {
+  background-color: #606060 !important;
+}
+
+/* a > i {
+  font-size: 23px !important;
+} */
+
+.sidebar {
+  position: fixed;
+  top: 42.67px;
+  right: -100%; /* Inicia fuera de la pantalla */
+  width: 100%;
+  height: 100%;
+  /* background-color: #333; */
+  /* color: white; */
+  padding: 20px;
+  opacity: 0; /* Completamente invisible al inicio */
+  animation: slideInFromRight 0.3s ease-out forwards; /* Aplicar la animación inmediatamente */
+}
+
+@keyframes slideInFromRight {
+  from {
+    right: -100%; /* Posición fuera de la pantalla, hacia la derecha */
+    opacity: 0; /* Totalmente transparente */
+  }
+  to {
+    right: 0; /* Entra en la pantalla */
+    opacity: 1; /* Completamente visible */
+  }
+}
+
+.study-progress {
+  border-radius: 0px !important;
+  height: 0.4rem !important;
+  top: -18px !important;
+}
+
+.study-progress::-webkit-progress-value {
+  border-radius: 0px !important;
+  /* Elimina o cambia el redondeado */
+  transition: width 0.5s ease !important;
+}
+
+.modal-box-sm {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: none !important;
+}
+
+.transition-ease {
+  transition: width 0.5s ease !important;
+}
+
+.text-success {
+  color: #00a96e;
+}
