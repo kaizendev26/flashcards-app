@@ -16,7 +16,11 @@ const routes = {
 };
 
 const Header = async () => {
-  const hash = getHash();
+  let hash = getHash();
+  const user = getSessionUser();
+  if (user) {
+      if(hash === "/") hash = "/decks";
+  }
   const route = resolveRoutes(hash);
 
   const deckId = hash.split("?")[1];
