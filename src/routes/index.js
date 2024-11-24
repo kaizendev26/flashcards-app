@@ -43,6 +43,7 @@ const router = async () => {
   const user = getSessionUser();
   if (user) {
     hash = getHash();
+    if(hash === "/") hash = "/decks";
     route = await resolveRoutes(hash);
     render = routes[route] ? routes[route] : Error404;
 
