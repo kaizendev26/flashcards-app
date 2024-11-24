@@ -1,6 +1,6 @@
 # Flashcards App
 
-Flashcards App es una aplicación inspirada en Anki, diseñada para ayudarte a estudiar de manera eficiente utilizando el método de **repetición espaciada**. Ofrece una experiencia personalizada para múltiples usuarios, permitiendo gestionar mazos de cartas y realizar un seguimiento de tu progreso.
+Flashcards App es una aplicación inspirada en Anki, diseñada para el estudio de manera eficiente utilizando el método de **repetición espaciada**. Ofrece una experiencia personalizada para múltiples usuarios, permitiendo gestionar mazos de cartas y realizar un seguimiento de tu progreso.
 
 ## 💡 Sobre este proyecto
 
