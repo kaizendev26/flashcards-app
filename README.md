@@ -67,8 +67,16 @@ Este proyecto utiliza las siguientes tecnologías y herramientas:
 
 Se que este proyecto personal no esta completamente terminado. Algunas ideas para futuras mejoras incluyen:
 
-- Implementar notificaciones para recordar las sesiones de estudio.
-- Integración con una aplicación móvil (Android e iOS).
+**Mas proximas**
+- Edicion de cartas cuando se esta estudiando
+- Implementar la opcion de carga de imagenes y cargar contenido html para formatear el texto
 - Agregar estadísticas mas avanzadas para el seguimiento del aprendizaje.
+
+**Futuras**
+- Integrar Quiz basados en tus tarjeta de estudio para reforzar
+  el aprendizaje( util para cuando estas estuiando un idioma y quieres practicar las palabras en oraciones)
+- Integración con una aplicación móvil (Android e iOS).
 - Opciones de personalización más detalladas para cada usuario.
+- Implementar notificaciones para recordar las sesiones de estudio.
 - Migración hacia un Framework como React
+
